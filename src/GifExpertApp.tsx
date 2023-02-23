@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Alert, Card, Col, Container, Row } from "react-bootstrap"
 import AddCategory from "./components/AddCategory"
+import Footer from "./components/Footer"
 
 export default function GiftExpertApp() {
 
@@ -63,6 +64,7 @@ export default function GiftExpertApp() {
                 
                 </Row>
             </Container>
+            <Footer></Footer>
         </>
     )
 }
