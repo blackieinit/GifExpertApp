@@ -3,7 +3,7 @@ import { Button, Card, Col, Container, Form, Row } from "react-bootstrap"
 
 export default function AddCategory( { onNewCategory } : any ) {
 
-    const [inputValue, setInputValue] = useState('One Punch')
+    const [inputValue, setInputValue] = useState('')
 
     const onInputChange = ( { target } : any ) => {
         setInputValue( target.value )
