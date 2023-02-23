@@ -18,6 +18,8 @@ export default function AddCategory( { onNewCategory } : any ) {
         setInputValue('')
     }
 
+    const onClick = ( event )
+
     return (
         <>
         <Form onSubmit={ onSubmit }>
@@ -32,7 +34,7 @@ export default function AddCategory( { onNewCategory } : any ) {
                     />
                 </Col>
                 <Col xs="auto" md="2" className="d-grip gap-2">
-                    <Button /* onSubmit={onAddCategory} */ className="mb-2 col-md-12">
+                    <Button type="submit" className="mb-2 col-md-12">
                         Agregar categoría
                     </Button>
                 </Col>
